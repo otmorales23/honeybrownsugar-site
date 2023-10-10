@@ -1,0 +1,53 @@
+.examples {
+    text-align: center;
+    background-color: rgb(211, 211, 211);
+}
+
+.examples h2 {
+    color: black;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+.images a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    
+}
+
+.images img {
+    width: 500px;
+    height: 300px;
+}
+
+.image-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:  rgb(255, 173, 247);
+    border-style: solid;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.images a:hover .image-container {
+    opacity: 1;
+}
+
+.images a:hover img{
+    filter: blur(2.5px);
+}
