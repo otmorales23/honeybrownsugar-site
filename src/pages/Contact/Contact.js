@@ -23,7 +23,7 @@ const Contact = () => {
         </ul>
       </div>
       
-      <div class="stream-contact">
+      <div className="stream-contact">
         <h2>If you want to get in touch with me related to Software Developement please reach me at the following:</h2>  
         <ul>
           <li>

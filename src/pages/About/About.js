@@ -1,6 +1,6 @@
 import React from 'react';
+import Me from '../../images/photo-of-me.jpg';
 import './about.css';
-import Me from '../../images/photo-of-me.jpg'
 
 function About () {
   return (
@@ -8,14 +8,14 @@ function About () {
       <div className="container">
         <div className="about-content">
         <h1>About Me</h1>
-        <img src={Me} alt="Ollie wearing a blue sweater, on a beige backdrop"></img>
+        <img className="image-me" src={Me} alt="Ollie wearing a blue sweater, on a beige backdrop"></img>
         <h2>Early Life</h2>
         <p id="early-life">
-            Ollie/Honey was born in Ewa Beac on Oahu Island in Hawaii. They were adopted by a single lesbian when they were two weeks old. 
+            Ollie/Honey was born in Ewa Beach on Oahu Island in Hawaii. They were adopted by a single lesbian when they were two weeks old. 
         </p>
 {/* something else about my early life goes here  */}
         <h2>Career Path</h2>
-          <p id="career-path"> Ollie is a queer, (trans)genderfluid (they/them), afro-latinx 22 year old Software Developer and Cozy Gamer
+          <p id="career-path"> Ollie is a queer, genderfluid, afro-latinx 22 year old Software Developer and Cozy Gamer
                 who specializes in front-end development and UI/UX design!
                 They are proficient in several different coding languages and frameworks including HTML, CSS, JavaScript,
                 Node.js, React.js, Express.js, Tailwind CSS and Bootstrap. They are also working towards proficiency in C#.
