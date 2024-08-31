@@ -17,11 +17,11 @@
 }
 
 #gamer-and-streamer p {
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 5px;
 }
 
-img {
+.image-me {
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -36,7 +36,7 @@ h1 {
 h2 {
   font-size: 35px;
   margin: 0;
-  margin-bottom: 20px;
+  padding-top: 20px;
 }
 
 p {
