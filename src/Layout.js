@@ -4,7 +4,7 @@ import Footer from './components/Footer/Footer.js';
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="layout-container">
       <Header />
       <main>
         {children}

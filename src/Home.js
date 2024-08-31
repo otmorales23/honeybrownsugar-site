@@ -17,6 +17,10 @@ const Home = () => {
     // Add more featured projects as needed
   ];
 
+  const goToWebAppsPage = function() {
+    window.location.assign("/WebApps");
+  };
+
   return (
     <div className="home">
       {/* Introduction Section */}
@@ -40,7 +44,7 @@ const Home = () => {
           ))}
         </div>
         <div className="view-all-projects">
-          <button>View All Projects</button>
+          <button onClick={goToWebAppsPage}>View All Projects</button>
         </div>
       </section>
 
@@ -54,6 +58,7 @@ const Home = () => {
           <img src="/snippet1.jpg" alt="Code Snippet 1" />
         </div>
         <div className="video-clip">
+          {/*TODO: use <video> tag instead of iframe*/}
           <iframe
             width="560"
             height="315"
