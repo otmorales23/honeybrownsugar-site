@@ -1,8 +1,9 @@
 import React from 'react';
-import Scheduler from '../../images/workday-scheduler.png'
-import FashionFusion from '../../images/fashion-fusion.png'
-import NoteTaker from '../../images/pastel-note-taker.png'
-import './webapps.css'
+import Scheduler from '../../images/workday-scheduler.png';
+import FashionFusion from '../../images/fashion-fusion.png';
+import NoteTaker from '../../images/pastel-note-taker.png';
+import CodingQuiz from '../../images/quiz-screenshot.png';
+import './webapps.css';
 
 function WebApps() {
     return (
@@ -25,6 +26,12 @@ function WebApps() {
                     <img src={NoteTaker} alt="a screenshot of a simple, pink-themed note taker application" />
                     <div className="image-container">
                         <div>Note Taker App</div>
+                    </div>
+                </a>
+                <a href="https://github.com/otmorales23/example-employee-tracker">
+                    <img src={CodingQuiz} alt="a screenshot of a simple, pink-themed coding quiz application"/>
+                    <div className="image-container">
+                        <div>Coding Quiz App</div>
                     </div>
                 </a>
             </div>

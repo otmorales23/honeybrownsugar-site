@@ -1,25 +1,18 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-    background-color: lightpink;
-    color: black;
-  }
-  
-  .name {
-    font-size: 2rem;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  
-  .nav {
-    display: flex;
-    font-size: 1.5rem;
-  }
-  
-  nav a {
-    margin-left: 1rem;
-    text-decoration: none;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-  }
+  background-color: lightpink;
+}
+
+.name {
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  margin-right: 50px;
+}
+
+.reverseNav {
+  flex-direction: row-reverse !important;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.5rem;
+  font-family: 'Courier New', Courier, monospace;
+}
