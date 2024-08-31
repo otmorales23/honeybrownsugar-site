@@ -11,11 +11,7 @@ function About () {
         <img className="image-me" src={Me} alt="Ollie wearing a blue sweater, on a beige backdrop"></img>
         <h2>Early Life</h2>
         <p id="early-life">
-<<<<<<< HEAD
-            Ollie/Honey was born in Ewa Beach on the island of Oahu. They were adopted by a single lesbian when they were two weeks old. 
-=======
             Ollie/Honey was born in Ewa Beach on Oahu Island in Hawaii. They were adopted by a single lesbian when they were two weeks old. 
->>>>>>> babf1c817025ff824972b35828d2b85ec3e255ef
         </p>
 {/* something else about my early life goes here  */}
         <h2>Career Path</h2>
