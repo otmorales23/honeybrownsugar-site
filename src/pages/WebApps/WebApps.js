@@ -10,25 +10,25 @@ function WebApps() {
         <div className="examples">
             <h2>Examples of My Work</h2>
             <div className="images">
-                <a href="https://otmorales23.github.io/work-day-scheduler/">
+                <a href="https://otmorales23.github.io/work-day-scheduler/" target="_blank">
                     <img src={Scheduler} alt="a pink-themed work day scheduler" />
                     <div className="image-container">
                         <div>Work Day Scheduler</div>
                     </div>
                 </a>
-                <a href="https://fashion-fusion-fdbc9c87836b.herokuapp.com/">
+                <a href="https://fashion-fusion-fdbc9c87836b.herokuapp.com/" target="_blank">
                     <img src={FashionFusion} alt="a screenshot of the homepage of a sample eCommerce webpage" />
                     <div className="image-container">
-                        <div>Fashion Fusion - eCommerce Page</div>
+                        <div>eCommerce Page</div>
                     </div>
                 </a>
-                <a href="https://pastel-note-taker-fd1adcb5eb12.herokuapp.com/">
+                <a href="https://pastel-note-taker-fd1adcb5eb12.herokuapp.com/" target="_blank">
                     <img src={NoteTaker} alt="a screenshot of a simple, pink-themed note taker application" />
                     <div className="image-container">
                         <div>Note Taker App</div>
                     </div>
                 </a>
-                <a href="https://github.com/otmorales23/example-employee-tracker">
+                <a href="https://github.com/otmorales23/example-employee-tracker" target="_blank">
                     <img src={CodingQuiz} alt="a screenshot of a simple, pink-themed coding quiz application"/>
                     <div className="image-container">
                         <div>Coding Quiz App</div>
