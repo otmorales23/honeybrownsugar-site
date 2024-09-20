@@ -16,3 +16,7 @@
   font-size: 1.5rem;
   font-family: 'Courier New', Courier, monospace;
 }
+
+.nav-item {
+  margin: 0 5px;
+}
